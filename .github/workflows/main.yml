@@ -2,7 +2,7 @@ name: demo-file
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   demo:
@@ -10,5 +10,5 @@ jobs:
 
     steps:
       - name: demo-execution-print-welcome
-      -  run: echo " welcome here "
+        run: echo " welcome here "
     
