@@ -1,0 +1,14 @@
+name: demo-file
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  demo:
+    runs-on : ubuntu-latest
+
+    steps:
+      - name: demo-execution-print-welcome
+      -  run: echo " welcome here "
+    
